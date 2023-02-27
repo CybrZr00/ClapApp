@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         mediaPlayer = MediaPlayer.create(this, R.raw.applause)
         mediaPlayer.isLooping = true
-        val button = findViewById<Button>(R.id.btnClap)
+        //val button = findViewById<Button>(R.id.btnClap)
 
-        button.setOnClickListener{
+        /*button.setOnClickListener{
             if (!playing){
                 mediaPlayer.start()
                 button.text = "Pause"
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             }
             playing = !playing
 
-        }
+        }*/
 
     }
 }
